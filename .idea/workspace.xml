@@ -27,6 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c97a6941-a835-4ce5-9561-d1b294e41087" name="Default Changelist" comment="Tracker for iss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/INDEX.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/INDEX.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +40,7 @@
       <list>
         <option value="Flask Main" />
         <option value="Python Script" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -56,6 +59,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="177d7f68-d8d2-4e71-aba7-303eb9cfc705" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="24ICVVWQkiZKrRNQO0ZIKWzl5AG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,9 +72,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.quickstart">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="Satellit tracker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ISS_tracker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,7 +149,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -157,7 +164,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -167,9 +174,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.quickstart" />
         <item itemvalue="Python.Track_ISS" />
-        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.Satellit tracker" />
       </list>
     </recent_temporary>
@@ -185,6 +192,7 @@
       <workItem from="1643308758089" duration="448000" />
       <workItem from="1643362542681" duration="4659000" />
       <workItem from="1643891049090" duration="365000" />
+      <workItem from="1643892287395" duration="896000" />
     </task>
     <task id="LOCAL-00001" summary="Addet forskellige filer til at komme i gang">
       <created>1643309127866</created>
@@ -223,7 +231,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Addet forskellige filer til at komme i gang" />
@@ -231,55 +238,13 @@
     <MESSAGE value="Tracker for iss" />
     <option name="LAST_COMMIT_MESSAGE" value="Tracker for iss" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog" timestamp="1643712709681">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1643712709681" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1643725903239">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1643725903239" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1643725903239">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1643725903239" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1643725903238">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1643725903238" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1643725903239">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1643725903239" />
-    <state x="434" y="153" key="RollbackChangesDialog" timestamp="1643716708001">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="434" y="153" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1643716708001" />
-    <state x="541" y="155" key="SettingsEditor" timestamp="1643372797381">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="541" y="155" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1643372797381" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1643725793538">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1643725793538" />
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1643891319647">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1643891319647" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1643712673924">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1643712673924" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ISS_tracker$Satellit_tracker.coverage" NAME="Satellit tracker Coverage Results" MODIFIED="1643369454124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ISS_tracker$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1643371192516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ISS_tracker$ISS_tracker.coverage" NAME="ISS_tracker Coverage Results" MODIFIED="1643371000452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/ISS_tracker$app.coverage" NAME="app Coverage Results" MODIFIED="1643376310213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ISS_tracker$Track_ISS.coverage" NAME="Track_ISS Coverage Results" MODIFIED="1643721542982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ISS_tracker$ephemtest.coverage" NAME="ephemtest Coverage Results" MODIFIED="1643707610772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ISS_tracker$quickstart.coverage" NAME="quickstart Coverage Results" MODIFIED="1643725718090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ISS_tracker$app.coverage" NAME="app Coverage Results" MODIFIED="1643376310213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ISS_tracker$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1643893187152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/ISS_tracker$Satellit_tracker.coverage" NAME="Satellit tracker Coverage Results" MODIFIED="1643369454124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ISS_tracker$ephemtest.coverage" NAME="ephemtest Coverage Results" MODIFIED="1643707610772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ISS_tracker$Track_ISS.coverage" NAME="Track_ISS Coverage Results" MODIFIED="1643721542982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ISS_tracker$ISS_tracker.coverage" NAME="ISS_tracker Coverage Results" MODIFIED="1643371000452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
