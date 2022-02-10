@@ -7,8 +7,8 @@ import redis
 import json
 import os
 
-lon = 10.1876224
-lat = 56.1563259
+lon = 9.52415
+lat = 56.08537
 alt = 40
 n = 15
 def getISSTLE():
@@ -61,7 +61,7 @@ def get_passes(lon, lat, alt, n):
         dt = datetime.datetime(year, month, day, hour, minute, int(second))
 
         if duration > 60:
-            passes.append({"risetime": datetime.datetime.fromtimestamp(timegm(dt.timetuple())).strftime('%d-%m-%Y %H:%M:%S'), "duration": datetime.datetime.fromtimestamp(duration).strftime('%M:%S')})
+            passes.append({"risetime": timegm(dt.timetuple()), "duration": duration})
 
         # Increase the time by more than a pass and less than an orbit
         location.date = tr + 25*ephem.minute
