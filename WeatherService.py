@@ -1,8 +1,8 @@
 from astral import LocationInfo
 from astral.sun import sun
 import datetime
-import time
 import pyowm
+import time
 #  Libraries needed to run this class.
 
 owm = pyowm.OWM("fc1d78e5bdb6e3e613600e91faa22e79")
